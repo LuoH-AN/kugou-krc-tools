@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# 默认及常见输出目录
+output/
+kugou_krc_output/
+
+# 避免误提交下载或转换出的歌词/时间轴
+*.krc
+*.decoded.krc.txt
+*.krc.txt
+*.lrc
+*.yrc
+*.timeline.json
+*.words.csv

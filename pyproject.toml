@@ -1,0 +1,16 @@
+[project]
+name = "kugou-krc-tools"
+version = "1.0.0"
+description = "Standard-library tools for downloading, decoding, and converting Kugou KRC timelines"
+readme = "README.md"
+requires-python = ">=3.10"
+
+[project.scripts]
+kugou-krc-tools = "kugou_krc_tools:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["kugou_krc_tools"]
